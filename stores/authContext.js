@@ -1,5 +1,4 @@
-import { createContext, useState } from "react";
-import { useEffect } from "react/cjs/react.development";
+import { createContext, useState, useEffect } from "react";
 import netlifyIdentity  from "netlify-identity-widget";
 
 const AuthContext = createContext({
