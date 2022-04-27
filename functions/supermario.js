@@ -3,7 +3,7 @@ exports.handler = async () => {
 
     const data = { name: 'John Doe', age: '42' };
 
-    // return respoense to browser
+    // return response to browser
     return {
         statusCode: 200,
         body: JSON.stringify(data)
